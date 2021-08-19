@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-19T07:18:13.415Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.42 Safari/537.36" etag="7cL4yKdzIMhs_bg45pev" version="14.9.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-19T07:26:40.508Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.42 Safari/537.36" etag="WVt_7tWzEF938t7V1oak" version="14.9.7" type="github">
   <diagram id="jEH3ZiOeopRqX5KR53MJ" name="Page-1">
     <mxGraphModel dx="1186" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -179,6 +179,12 @@
         </mxCell>
         <mxCell id="N4TFN70jIK_nH06movr9-46" value="云主机订单在ecloudmachine的controller里确认" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1170" y="1220" width="159" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="N4TFN70jIK_nH06movr9-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="N4TFN70jIK_nH06movr9-48" target="N4TFN70jIK_nH06movr9-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N4TFN70jIK_nH06movr9-48" value="&lt;span&gt;orderExtId是创建集群时存的&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="1150" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
