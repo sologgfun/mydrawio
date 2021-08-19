@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-19T02:01:44.451Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.42 Safari/537.36" etag="iFCHFGab_YUMFG4h5n7u" version="14.9.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-19T02:20:41.092Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.42 Safari/537.36" etag="dvQ6nIOcPd-VbdlY0uXk" version="14.9.7" type="github">
   <diagram id="jEH3ZiOeopRqX5KR53MJ" name="Page-1">
     <mxGraphModel dx="1186" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -96,8 +96,14 @@
         <mxCell id="N4TFN70jIK_nH06movr9-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="N4TFN70jIK_nH06movr9-12" target="N4TFN70jIK_nH06movr9-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="N4TFN70jIK_nH06movr9-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="N4TFN70jIK_nH06movr9-12" target="N4TFN70jIK_nH06movr9-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="N4TFN70jIK_nH06movr9-12" value="同步EndPoints" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="930" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N4TFN70jIK_nH06movr9-18" value="同步集群LB(以及LB的EP)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="930" y="410" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
