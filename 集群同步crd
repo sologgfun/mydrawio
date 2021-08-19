@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-19T07:26:40.508Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.42 Safari/537.36" etag="WVt_7tWzEF938t7V1oak" version="14.9.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-19T07:34:38.546Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.42 Safari/537.36" etag="yMunmWRAwq6aanBcA9Gb" version="14.9.7" type="github">
   <diagram id="jEH3ZiOeopRqX5KR53MJ" name="Page-1">
     <mxGraphModel dx="1186" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,16 +14,18 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FeqDpPHVNi0IqYIseYB4-2" value="获取失败" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="354" y="140" width="120" height="60" as="geometry" />
+          <mxGeometry x="394" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FeqDpPHVNi0IqYIseYB4-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FeqDpPHVNi0IqYIseYB4-4" target="FeqDpPHVNi0IqYIseYB4-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FeqDpPHVNi0IqYIseYB4-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FeqDpPHVNi0IqYIseYB4-4" target="FeqDpPHVNi0IqYIseYB4-10" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="FeqDpPHVNi0IqYIseYB4-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FeqDpPHVNi0IqYIseYB4-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="559" y="340" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="FeqDpPHVNi0IqYIseYB4-4" value="erros.IsNotFound" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="354" y="230" width="120" height="60" as="geometry" />
+          <mxGeometry x="394" y="230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FeqDpPHVNi0IqYIseYB4-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FeqDpPHVNi0IqYIseYB4-8" target="FeqDpPHVNi0IqYIseYB4-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -32,52 +34,52 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FeqDpPHVNi0IqYIseYB4-8" value="获取集群状态" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="249" y="340" width="120" height="60" as="geometry" />
+          <mxGeometry x="289" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FeqDpPHVNi0IqYIseYB4-10" value="重试" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="459" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FeqDpPHVNi0IqYIseYB4-12" value="false" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="530" y="310" width="40" height="20" as="geometry" />
+          <mxGeometry x="570" y="310" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="FeqDpPHVNi0IqYIseYB4-13" value="true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="260" y="310" width="40" height="20" as="geometry" />
+          <mxGeometry x="300" y="310" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="FeqDpPHVNi0IqYIseYB4-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FeqDpPHVNi0IqYIseYB4-15" target="FeqDpPHVNi0IqYIseYB4-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FeqDpPHVNi0IqYIseYB4-15" value="非deleting" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="150" y="450" width="120" height="60" as="geometry" />
+          <mxGeometry x="190" y="450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FeqDpPHVNi0IqYIseYB4-17" value="直接返回" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="150" y="540" width="120" height="60" as="geometry" />
+          <mxGeometry x="190" y="540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FeqDpPHVNi0IqYIseYB4-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FeqDpPHVNi0IqYIseYB4-19" target="FeqDpPHVNi0IqYIseYB4-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FeqDpPHVNi0IqYIseYB4-19" value="deleting" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="354" y="450" width="120" height="60" as="geometry" />
+          <mxGeometry x="394" y="450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FeqDpPHVNi0IqYIseYB4-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FeqDpPHVNi0IqYIseYB4-21" target="FeqDpPHVNi0IqYIseYB4-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FeqDpPHVNi0IqYIseYB4-21" value="发送删除集群消息给security pro" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="354" y="540" width="120" height="60" as="geometry" />
+          <mxGeometry x="394" y="540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FeqDpPHVNi0IqYIseYB4-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FeqDpPHVNi0IqYIseYB4-23" target="FeqDpPHVNi0IqYIseYB4-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FeqDpPHVNi0IqYIseYB4-23" value="发送数据给edge" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="354" y="630" width="120" height="60" as="geometry" />
+          <mxGeometry x="394" y="630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FeqDpPHVNi0IqYIseYB4-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FeqDpPHVNi0IqYIseYB4-25" target="FeqDpPHVNi0IqYIseYB4-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FeqDpPHVNi0IqYIseYB4-25" value="更新状态为deleted" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="354" y="720" width="120" height="60" as="geometry" />
+          <mxGeometry x="394" y="720" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FeqDpPHVNi0IqYIseYB4-27" value="若非存量集群，发送callbackToMop取消订单" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="354" y="810" width="120" height="60" as="geometry" />
+          <mxGeometry x="394" y="810" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="N4TFN70jIK_nH06movr9-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="N4TFN70jIK_nH06movr9-3">
           <mxGeometry relative="1" as="geometry">
@@ -85,13 +87,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="N4TFN70jIK_nH06movr9-3" value="获取成功，同步集群" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="930" y="140" width="120" height="60" as="geometry" />
+          <mxGeometry x="890" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="N4TFN70jIK_nH06movr9-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="N4TFN70jIK_nH06movr9-10" target="N4TFN70jIK_nH06movr9-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="N4TFN70jIK_nH06movr9-10" value="同步集群Security和servicePortRange" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="930" y="230" width="120" height="60" as="geometry" />
+          <mxGeometry x="890" y="230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="N4TFN70jIK_nH06movr9-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="N4TFN70jIK_nH06movr9-12" target="N4TFN70jIK_nH06movr9-10">
           <mxGeometry relative="1" as="geometry" />
@@ -100,25 +102,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="N4TFN70jIK_nH06movr9-12" value="同步EndPoints" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="930" y="320" width="120" height="60" as="geometry" />
+          <mxGeometry x="890" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="N4TFN70jIK_nH06movr9-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="N4TFN70jIK_nH06movr9-18" target="N4TFN70jIK_nH06movr9-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="N4TFN70jIK_nH06movr9-18" value="同步集群LB(以及LB的EP)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="930" y="410" width="120" height="60" as="geometry" />
+          <mxGeometry x="890" y="410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="N4TFN70jIK_nH06movr9-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="N4TFN70jIK_nH06movr9-20" target="N4TFN70jIK_nH06movr9-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="N4TFN70jIK_nH06movr9-20" value="同步集群phase和stasus" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="930" y="500" width="120" height="60" as="geometry" />
+          <mxGeometry x="890" y="500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="N4TFN70jIK_nH06movr9-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="N4TFN70jIK_nH06movr9-23" target="N4TFN70jIK_nH06movr9-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="N4TFN70jIK_nH06movr9-23" value="判断集群是否失败" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="930" y="590" width="120" height="60" as="geometry" />
+          <mxGeometry x="890" y="590" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="N4TFN70jIK_nH06movr9-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="N4TFN70jIK_nH06movr9-25" target="N4TFN70jIK_nH06movr9-27">
           <mxGeometry relative="1" as="geometry" />
@@ -142,49 +144,51 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="N4TFN70jIK_nH06movr9-31" value="同步k8s版本(upgrading)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="690" width="120" height="60" as="geometry" />
+          <mxGeometry x="1000" y="690" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="N4TFN70jIK_nH06movr9-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="N4TFN70jIK_nH06movr9-33" target="N4TFN70jIK_nH06movr9-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="N4TFN70jIK_nH06movr9-33" value="发送数据给容器安全(available)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="790" width="120" height="60" as="geometry" />
+          <mxGeometry x="1000" y="790" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="N4TFN70jIK_nH06movr9-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="N4TFN70jIK_nH06movr9-35" target="N4TFN70jIK_nH06movr9-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="N4TFN70jIK_nH06movr9-35" value="标记集群和节点的SecStatus为sended" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="880" width="120" height="60" as="geometry" />
+          <mxGeometry x="1000" y="880" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="N4TFN70jIK_nH06movr9-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="N4TFN70jIK_nH06movr9-38" target="N4TFN70jIK_nH06movr9-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="N4TFN70jIK_nH06movr9-38" value="(边缘集群)发送创建成功消息给edge" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="970" width="120" height="60" as="geometry" />
+          <mxGeometry x="1000" y="970" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="N4TFN70jIK_nH06movr9-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="N4TFN70jIK_nH06movr9-40" target="N4TFN70jIK_nH06movr9-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="N4TFN70jIK_nH06movr9-40" value="(available)集群" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="1060" width="120" height="60" as="geometry" />
+          <mxGeometry x="1000" y="1060" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="N4TFN70jIK_nH06movr9-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="N4TFN70jIK_nH06movr9-42" target="N4TFN70jIK_nH06movr9-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="N4TFN70jIK_nH06movr9-42" value="向mop回调确认lb计费" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="1150" width="120" height="60" as="geometry" />
+          <mxGeometry x="1000" y="1150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="N4TFN70jIK_nH06movr9-44" value="向mop回调确定容器服务开通成功" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="1240" width="120" height="60" as="geometry" />
+          <mxGeometry x="1000" y="1240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="N4TFN70jIK_nH06movr9-46" value="云主机订单在ecloudmachine的controller里确认" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="1220" width="159" height="20" as="geometry" />
+          <mxGeometry x="1130" y="1220" width="159" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="N4TFN70jIK_nH06movr9-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="N4TFN70jIK_nH06movr9-48" target="N4TFN70jIK_nH06movr9-42">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="N4TFN70jIK_nH06movr9-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" target="N4TFN70jIK_nH06movr9-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1190" y="1180" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="N4TFN70jIK_nH06movr9-48" value="&lt;span&gt;orderExtId是创建集群时存的&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1230" y="1150" width="120" height="60" as="geometry" />
+          <mxGeometry x="1189.5" y="1150" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
