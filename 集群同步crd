@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-19T03:29:51.377Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.42 Safari/537.36" etag="sHISoYegbGAY-Mcd9Fwf" version="14.9.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-19T07:15:05.942Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.42 Safari/537.36" etag="2vEYQsv0nRVgq7zOzQ52" version="14.9.7" type="github">
   <diagram id="jEH3ZiOeopRqX5KR53MJ" name="Page-1">
     <mxGraphModel dx="1186" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -124,16 +124,58 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="N4TFN70jIK_nH06movr9-25" value="更新集群状态为failed" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="930" y="680" width="120" height="60" as="geometry" />
+          <mxGeometry x="827" y="690" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="N4TFN70jIK_nH06movr9-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="N4TFN70jIK_nH06movr9-27" target="N4TFN70jIK_nH06movr9-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="N4TFN70jIK_nH06movr9-27" value="mop订单失败的回调" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="930" y="780" width="120" height="60" as="geometry" />
+          <mxGeometry x="827" y="790" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="N4TFN70jIK_nH06movr9-29" value="控制器删除集群crd" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="930" y="870" width="120" height="60" as="geometry" />
+          <mxGeometry x="827" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N4TFN70jIK_nH06movr9-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="N4TFN70jIK_nH06movr9-31" target="N4TFN70jIK_nH06movr9-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N4TFN70jIK_nH06movr9-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="N4TFN70jIK_nH06movr9-31" target="N4TFN70jIK_nH06movr9-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N4TFN70jIK_nH06movr9-31" value="同步k8s版本(upgrading)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N4TFN70jIK_nH06movr9-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="N4TFN70jIK_nH06movr9-33" target="N4TFN70jIK_nH06movr9-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N4TFN70jIK_nH06movr9-33" value="发送数据给容器安全(available)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N4TFN70jIK_nH06movr9-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="N4TFN70jIK_nH06movr9-35" target="N4TFN70jIK_nH06movr9-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N4TFN70jIK_nH06movr9-35" value="标记集群和节点的SecStatus为sended" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N4TFN70jIK_nH06movr9-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="N4TFN70jIK_nH06movr9-38" target="N4TFN70jIK_nH06movr9-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N4TFN70jIK_nH06movr9-38" value="(边缘集群)发送创建成功消息给edge" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N4TFN70jIK_nH06movr9-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="N4TFN70jIK_nH06movr9-40" target="N4TFN70jIK_nH06movr9-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N4TFN70jIK_nH06movr9-40" value="(available)集群" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N4TFN70jIK_nH06movr9-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="N4TFN70jIK_nH06movr9-42" target="N4TFN70jIK_nH06movr9-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N4TFN70jIK_nH06movr9-42" value="向mop回调确认lb计费" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N4TFN70jIK_nH06movr9-44" value="向mop回调确定容器服务开通成功" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1240" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
