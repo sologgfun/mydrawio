@@ -1,1 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2021-09-12T02:37:41.319Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.41 Safari/537.36" version="15.0.6" etag="MY9uHfc-CiTS9C_CqkGG" type="github"><diagram id="k8BSPckMfcALX-vrNMWG">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-12T02:41:15.988Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.41 Safari/537.36" etag="OC-y5tRIT6o6E119huaY" version="15.0.6" type="github">
+  <diagram id="k8BSPckMfcALX-vrNMWG" name="Page-1">
+    <mxGraphModel dx="1186" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="m-zZk-N_fD5D4ht0i1nB-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;shadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="180" width="290" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="m-zZk-N_fD5D4ht0i1nB-2" value="服务名" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="230" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m-zZk-N_fD5D4ht0i1nB-3" value="方法名&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E6%9C%8D%E5%8A%A1%E5%90%8D%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3Bshadow%3D0%3BfillColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2270%22%20y%3D%22230%22%20width%3D%2290%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="270" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m-zZk-N_fD5D4ht0i1nB-4" value="服务方法列表" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="350" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m-zZk-N_fD5D4ht0i1nB-6" value="方法参数及其类型" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="390" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m-zZk-N_fD5D4ht0i1nB-7" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="220" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="m-zZk-N_fD5D4ht0i1nB-8" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="340" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="m-zZk-N_fD5D4ht0i1nB-9" value="开发人员输入" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="100" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
