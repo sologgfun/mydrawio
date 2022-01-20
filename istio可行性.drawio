@@ -1,21 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2022-01-20T03:30:52.017Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.55 Safari/537.36" etag="jynfqPKrV4Pc_ckadJJ3" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-20T05:41:11.413Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.55 Safari/537.36" etag="Rfe5rs5NBrHSH2P5rAaX" version="15.9.1" type="github">
   <diagram id="BsrSYLADrxwHd4PoiwjR" name="Page-1">
     <mxGraphModel dx="1186" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="yCw_OrKiYoNmUvBbTZuA-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yCw_OrKiYoNmUvBbTZuA-1" target="yCw_OrKiYoNmUvBbTZuA-15">
+        <mxCell id="yCw_OrKiYoNmUvBbTZuA-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="yCw_OrKiYoNmUvBbTZuA-1" target="yCw_OrKiYoNmUvBbTZuA-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yCw_OrKiYoNmUvBbTZuA-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.442;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yCw_OrKiYoNmUvBbTZuA-1" target="yCw_OrKiYoNmUvBbTZuA-14">
+        <mxCell id="yCw_OrKiYoNmUvBbTZuA-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.442;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="yCw_OrKiYoNmUvBbTZuA-1" target="yCw_OrKiYoNmUvBbTZuA-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yCw_OrKiYoNmUvBbTZuA-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yCw_OrKiYoNmUvBbTZuA-1">
+        <mxCell id="yCw_OrKiYoNmUvBbTZuA-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=classicThin;startFill=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="yCw_OrKiYoNmUvBbTZuA-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="330" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yCw_OrKiYoNmUvBbTZuA-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yCw_OrKiYoNmUvBbTZuA-1">
+        <mxCell id="yCw_OrKiYoNmUvBbTZuA-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="yCw_OrKiYoNmUvBbTZuA-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="460" y="160" as="targetPoint" />
           </mxGeometry>
@@ -45,11 +45,26 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yCw_OrKiYoNmUvBbTZuA-14" value="灰度工程（前/后端)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="yCw_OrKiYoNmUvBbTZuA-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="yCw_OrKiYoNmUvBbTZuA-14" target="yCw_OrKiYoNmUvBbTZuA-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yCw_OrKiYoNmUvBbTZuA-14" value="灰度工程A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="300" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="yCw_OrKiYoNmUvBbTZuA-15" value="正式工程（前/后端）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="yCw_OrKiYoNmUvBbTZuA-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="yCw_OrKiYoNmUvBbTZuA-15" target="yCw_OrKiYoNmUvBbTZuA-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yCw_OrKiYoNmUvBbTZuA-15" value="正式工程A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yCw_OrKiYoNmUvBbTZuA-23" value="正式工程B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="370" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yCw_OrKiYoNmUvBbTZuA-24" value="灰度工程B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="370" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yCw_OrKiYoNmUvBbTZuA-29" value="网关规则：根据userid匹配访问" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="205" width="220" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
